@@ -44,14 +44,16 @@ $ rspec spec/greet_spec.rb
 
 - diagramming tools: excalidraw.com asciiflow.com
 
-- **mocking** - technique for creating fake classes fo testing purposes
+- **mocking** - technique for creating fake classes for testing purposes.
 control input and what methods to call on the class, assert on the output, contact fake objs
 
 - **dependency injection** - creating doubles and injecting it in the initializer in a class
 
 - shorthand syntax:
 for calling a fake class object: `double :class_object`
+
 for calling a fake class object with a method: `double :class_object, method_name: output`
+
 for precise testing of arguments given: `allow(*class_object*).to receive(*:method_name).with(*argument*).and_return(*output*)`   # => `allow` won't check that method has been called
                                         `expect(*class_object*).to receive(*:method_name).with(*argument*).and_return(*output*)`  # => `expect` will check that method's been called at the end of test
 
