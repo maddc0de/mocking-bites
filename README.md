@@ -29,14 +29,14 @@ run it inside the mocking-bites directory with the following commands in the com
 - to test all spec files:
 
 ```shell
-$ rspec
+rspec
 
 ```
 
 - to test a specific spec file: (for example, to test greet.rb)
 
 ```shell
-$ rspec spec/greet_spec.rb
+rspec spec/greet_spec.rb
 
 ```
 
