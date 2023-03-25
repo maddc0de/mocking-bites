@@ -10,7 +10,7 @@ class InteractiveCalculator
     @io.puts "Please enter another number"
     num_2 = @io.gets.chomp.to_i
     @io.puts "Here is your result:"
-    @io.puts "#{num_1.to_s} - #{num_2.to_s} = #{(num_1 - num_2).to_s}"
+    @io.puts "#{num_1} - #{num_2} = #{(num_1 - num_2)}"
   
   end
 
