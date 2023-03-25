@@ -8,20 +8,17 @@ A series of exercises to help me learn how to test Classes in isolation - Testin
 
 [x] Unit Testing Parent-Child Classes
 
-Parent-child relationship classes is where there is a single class that looks after a list of other classes.
+<!-- Parent-child relationship classes is where there is a single class that looks after a list of other classes. -->
 
 [x] Crafting Doubles
 
 [x] Unit Testing Peer Classes
 
-[] Unit Testing API Requests
-
-learn to test API requests using RSpec doubles
+[] Unit Testing API Requests <!-- using RSpec doubles -->
 <!-- an API is a way of allowing programs to request data from other programs -->
 
 [x] Unit Testing Terminal IO
-
-Testing inputs and outputs in terminal
+<!-- Testing inputs and outputs in terminal -->
 
 ----
 
